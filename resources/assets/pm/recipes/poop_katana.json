@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "  P",
+        " P ",
+        "S  "
+        
+    ],
+       
+       "key":
+        {
+            "P":
+            {
+                "item": "pm:poop_ingot"
+            },
+            
+            "S":
+            {
+                "item": "minecraft:stick"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "pm:poop_katana",
+            "count": 1
+        }        
+}

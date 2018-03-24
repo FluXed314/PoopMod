@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B",
+        "B"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "pm:poop_hardened"
+            }
+       },
+       
+       "result":
+       {
+            "item": "pm:poop_pillar",
+            "count": 1
+        }        
+}

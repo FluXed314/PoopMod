@@ -1,0 +1,10 @@
+{
+   "parent": "block/cube_column",
+   "textures": {
+       "particle": "pm:blocks/poop_pillar_top",
+        "end": "pm:blocks/poop_pillar_top",
+        "side": "pm:blocks/poop_pillar_side"
+        
+    }
+}
+

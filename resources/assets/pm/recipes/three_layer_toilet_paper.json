@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        "BBB"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "minecraft:paper"
+            }
+       },
+       
+       "result":
+       {
+            "item": "pm:three_layer_toilet_paper",
+            "count": 1
+        }        
+}

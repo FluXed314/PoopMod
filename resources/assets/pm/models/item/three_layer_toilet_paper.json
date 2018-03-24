@@ -1,0 +1,6 @@
+{
+   "parent": "item/generated",
+   "textures": {
+       "layer0": "pm:items/three_layer_toilet_paper"
+   }
+}

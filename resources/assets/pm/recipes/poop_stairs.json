@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "B  ",
+        "BB ",
+        "BBB"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "pm:poop_bricks"
+            }
+       },
+       
+       "result":
+       {
+            "item": "pm:poop_stairs",
+            "count": 4
+        }        
+}

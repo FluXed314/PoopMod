@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BB",
+        "BB"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "minecraft:paper"
+            }
+       },
+       
+       "result":
+       {
+            "item": "pm:double_layer_toilet_paper",
+            "count": 1
+        }        
+}

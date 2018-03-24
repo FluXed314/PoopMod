@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WSP"  
+    ],
+       
+       "key":
+        {
+            "S":
+            {
+                "item": "pm:poop_ingot"
+            },
+            
+            "P":
+            {
+                "item": "minecraft:sugar"
+            },
+            
+            "W":
+            {
+                "item": "minecraft:paper"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "pm:chocolate_bar",
+            "count": 1
+        }        
+}

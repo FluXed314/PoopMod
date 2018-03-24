@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "pm:poop"
+            }
+       },
+       
+       "result":
+       {
+            "item": "pm:poop_raw_ingot",
+            "count": 1
+        }        
+}
