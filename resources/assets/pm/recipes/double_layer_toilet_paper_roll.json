@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " X ",
+        "BBB"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "pm:toilet_paper"
+            },
+            
+            "X":
+            {
+                "item": "pm:empty_roll"
+            }
+       },
+       
+       "result":
+       {
+            "item": "pm:double_layer_toilet_paper_roll",
+            "count": 1
+        }        
+}

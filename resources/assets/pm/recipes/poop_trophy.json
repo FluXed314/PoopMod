@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BCX",
+        "ADE",
+        "POI"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "pm:single_layer_toilet_paper_roll"
+            },
+            
+            "C":
+            {
+                "item": "pm:double_layer_toilet_paper_roll"
+            },
+            
+            "X":
+            {
+                "item": "pm:three_layer_toilet_paper_roll"
+            },
+            
+            "A":
+            {
+                "item": "pm:toilet_block"
+            },
+            
+            "D":
+            {
+                "item": "pm:poop"
+            },
+            
+            "E":
+            {
+                "item": "pm:poop_stairs"
+            },
+            
+            "P":
+            {
+                "item": "pm:poop_lantern"
+            },
+            
+            "O":
+            {
+                "item": "minecraft:gold_block"
+            },
+            
+            "I":
+            {
+                "item": "pm:poop_pickaxe"
+            }
+     
+       },
+       
+       "result":
+       {
+            "item": "pm:poop_trophy",
+            "count": 1
+        }        
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BC"
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "pm:toilet_paper"
+            },
+            
+            "C":
+            {
+                "item": "pm:empty_roll"
+            }
+              
+       },
+       
+       "result":
+       {
+            "item": "pm:single_layer_toilet_paper_roll",
+            "count": 1
+        }        
+}
