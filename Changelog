@@ -1,4 +1,26 @@
 Changelog
 --------
-1.0.0r:
-- JUST MOD
+1.1.0:
+- CHANGED: "Single Layer Toilet Paper" to "Single Layer Toilet Paper Roll"
+- CHANGED: "Double Layer Toilet Paper" to "Double Layer Toilet Paper Roll"
+- CHANGED: "Three Layer Toilet Paper" to "Three Layer Toilet Paper Roll"
+- CHANGED: 3D Model of Toilet
+- CHANGED: The amount of the Poop dropping out of the toilet after clicking on it by special item (e.g. Single Layer Toilet Paper Roll)
+- CHANGED: Crafting Recipes
+
+- ADDED: Toilet Paper
+- ADDED: Empty Roll
+- ADDED: Raw Empty Roll
+- ADDED: 3D Model of Single Layer Toilet Paper
+- ADDED: 3D Model of Double Layer Toilet Paper
+- ADDED: 3D Model of Three Layer Toilet Paper	
+- ADDED: More Crafting Recipes
+- ADDED: More Smeltery Recipes
+- ADDED: Poop Trophy
+
+- FIXED: Bug, that allowed the player to place the models in the air
+- FIXED: Bug, that allowed the player to place the models on other models (e.g. poop on poop)
+
+
+1.0.0:
+- Mod Release
