@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y": { "model": "pm:poop_pillar" },
+        "axis=z": { "model": "pm:poop_pillar", "x": 90 },
+        "axis=x": { "model": "pm:poop_pillar", "x": 90, "y": 90 }
+    }
+}
