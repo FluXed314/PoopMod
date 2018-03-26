@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "facing=up": { "model": "pm:toilet_block" },
-  "facing=south": { "model": "pm:toilet_block" },
-  "facing=east": { "model": "pm:toilet_block","y":270 },
-  "facing=west": { "model": "pm:toilet_block","y":90 },
-  "facing=north": { "model": "pm:toilet_block","y":180 }
-    }
-}
