@@ -22,6 +22,8 @@ public class Main
 	
 	
 		public static CreativeTabs newtab = new PoopModTab(); 
+		
+		
 
 		//Some Events Handlers
 		@Instance
@@ -31,7 +33,7 @@ public class Main
 		@EventHandler
 		public static void PreInit(FMLPreInitializationEvent event)
 		{
-			
+		
 		}
 		@EventHandler
 		public static void init(FMLInitializationEvent event)
@@ -44,5 +46,6 @@ public class Main
 			
 		}
 
+		
 
 }

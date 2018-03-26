@@ -38,9 +38,8 @@ public class ModItems
 		//Items
 		public static final Item poop_raw_ingot = new ItemBase("poop_raw_ingot");
 		public static final Item poop_ingot = new ItemBase("poop_ingot");
-		public static final Item single_layer_toilet_paper = new ItemBase("single_layer_toilet_paper");
-		public static final Item double_layer_toilet_paper = new ItemBase("double_layer_toilet_paper");
-		public static final Item three_layer_toilet_paper = new ItemBase("three_layer_toilet_paper");
+		public static final Item raw_empty_roll = new ItemBase("raw_empty_roll");
+		public static final Item toilet_paper = new ItemBase("toilet_paper");
 		
 		
 		//Food

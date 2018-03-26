@@ -17,6 +17,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
@@ -101,7 +102,8 @@ public class ToiletBlock extends BlockBase implements ITileEntityProvider
 		        if(!worldIn.isRemote) 
 		        {
 		            ItemStack handItem = playerIn.getHeldItem(EnumHand.MAIN_HAND);
-		            if(handItem.getItem() == ModItems.single_layer_toilet_paper)
+		            
+		            if(handItem.getItem() == ModItems.toilet_paper)
 		            {
 		                
 		                float x = playerIn.getPosition().getX();
@@ -116,7 +118,23 @@ public class ToiletBlock extends BlockBase implements ITileEntityProvider
 		                
 		            }
 		            
-		           if(handItem.getItem() == ModItems.double_layer_toilet_paper)
+		            if(handItem.getItem() == Item.getItemFromBlock(ModBlocks.single_layer_toilet_paper))
+		            {
+		                
+		                float x = playerIn.getPosition().getX();
+		                float y = playerIn.getPosition().getY();
+		                float z = playerIn.getPosition().getZ();
+		           		               	                
+		                
+		                
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));             
+		                playerIn.inventory.decrStackSize(playerIn.inventory.currentItem, 1);
+		                
+		                
+		            }
+		            
+		            if(handItem.getItem() == Item.getItemFromBlock(ModBlocks.double_layer_toilet_paper))
 		           	{
 		               
 		                float x = playerIn.getPosition().getX();
@@ -129,11 +147,12 @@ public class ToiletBlock extends BlockBase implements ITileEntityProvider
 		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
 		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
 		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop)); 
 		                playerIn.inventory.decrStackSize(playerIn.inventory.currentItem, 1);
 		        	  
 		           	}
 		           
-		           if(handItem.getItem() == ModItems.three_layer_toilet_paper)
+		            if(handItem.getItem() == Item.getItemFromBlock(ModBlocks.three_layer_toilet_paper))
 		           {
 		               
 		                float x = playerIn.getPosition().getX();
@@ -152,6 +171,10 @@ public class ToiletBlock extends BlockBase implements ITileEntityProvider
 		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
 		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
 		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
+		                InventoryHelper.spawnItemStack(worldIn, x, y, z, new ItemStack(ModBlocks.poop));
 		                playerIn.inventory.decrStackSize(playerIn.inventory.currentItem, 1);
 		                
 		           }
@@ -159,8 +182,7 @@ public class ToiletBlock extends BlockBase implements ITileEntityProvider
 		       
 		        return true;
 		    }
-		    
-		    
+		 
 		    
 		    
 
